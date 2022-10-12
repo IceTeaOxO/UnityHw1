@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/UnityHw1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/UnityHw1.data.br",
-        frameworkUrl: buildUrl + "/UnityHw1.framework.js.br",
-        codeUrl: buildUrl + "/UnityHw1.wasm.br",
+        dataUrl: buildUrl + "/UnityHw1.data",
+        frameworkUrl: buildUrl + "/UnityHw1.framework.js",
+        codeUrl: buildUrl + "/UnityHw1.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "personHW1",
@@ -97,6 +97,7 @@
         canvas.style.height = "600px";
       }
 
+      canvas.style.background = "url('" + buildUrl + "/UnityHw1.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
