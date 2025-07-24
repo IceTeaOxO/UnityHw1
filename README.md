@@ -1,5 +1,8 @@
+2025/7/24
 
+更新[遊戲網址](https://iceteaoxo.github.io/UnityHw1/)
 
+---
 
 --簡要說明遊戲操作 使用A,D移動主角，按esc可以暫停遊戲並且退出
 
